@@ -1,0 +1,19 @@
+{
+  "name": "react-redux-skeleton",
+  "version": "1.0.0",
+  "description": "the skeleton of react-redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liujiefengfeng/react-redux-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liujiefengfeng/react-redux-skeleton/issues"
+  },
+  "homepage": "https://github.com/liujiefengfeng/react-redux-skeleton#readme"
+}
