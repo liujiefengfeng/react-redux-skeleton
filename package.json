@@ -4,7 +4,8 @@
   "description": "the skeleton of react-redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src/index.jsx -o src/index-compile.js && ./node_modules/.bin/browserify src/index-compile.js -o src/bundle.js"
   },
   "repository": {
     "type": "git",
