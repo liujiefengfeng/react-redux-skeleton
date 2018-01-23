@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.jsx',
@@ -6,6 +7,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "react+redux",
+      template: "dist/index.html"
+    })],
   module: {
     rules: [
       {
