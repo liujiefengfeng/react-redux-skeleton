@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-require('./index.scss');
+import './index.scss';
 
 class HelloWorld extends React.Component {
   render() {
