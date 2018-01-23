@@ -8,7 +8,25 @@ module.exports = {
   },
   module: {
     rules: [
-      {test: /\.(jsx|js)$/, exclude: /node_modules/, loader: "babel-loader"}
+      {
+        test: /\.(jsx|js)$/,
+        exclude: /node_modules/,
+        loader: "babel-loader"
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader"
+          },
+          {
+            loader: "sass-loader"
+          }
+        ]
+      }
     ]
   }
 };

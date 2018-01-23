@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+require('./index.scss');
 
 class HelloWorld extends React.Component {
   render() {
     return (
-      <div>Hello World!</div>
+      <div id='hello-world'>Hello World!</div>
     )
   }
 }
