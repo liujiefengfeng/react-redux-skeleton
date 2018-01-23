@@ -12,6 +12,7 @@ module.exports = {
       title: "react+redux",
       template: "dist/index.html"
     })],
+  devtool: 'source-map',
   module: {
     rules: [
       {
