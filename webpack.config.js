@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: './src/index.jsx',
@@ -8,6 +9,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   plugins: [
+    new UglifyJSPlugin(),
     new HtmlWebpackPlugin({
       title: "react+redux",
       template: "dist/index.html"
