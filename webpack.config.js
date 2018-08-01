@@ -14,7 +14,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: "react+redux",
-      template: "dist/index.html"
+      template: "src/index.html"
     })],
   devtool: 'source-map',
   module: {
